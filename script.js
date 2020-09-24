@@ -74,3 +74,5 @@ function saveToStorage() {
     //localStorage.setItem('list_todos', JSON.stringify(todos));
     localStorage.setItem('list_todos', JSON.stringify(todos));
 }
+
+renderTodos();
