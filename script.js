@@ -45,7 +45,7 @@ function addTodo() {
         inputElement.value = '';
         //chamando função que renderiza lista
         renderTodos();
-        //chamando função que sava lista no storage
+        //chamando função que salva lista no storage
         saveToStorage();
         //função que focaliza input text
         document.querySelector('#app input').focus();
